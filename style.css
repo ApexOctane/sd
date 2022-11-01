@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas {
+    animation-name: alpha;
+    animation-duration: 3.99s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes alpha {
+    0%   {box-shadow: 2px 2px 32px red;}
+    25%  {box-shadow: 2px 2px 32px yellow;}
+    50%  {box-shadow: 2px 2px 32px blue;}
+    100% {box-shadow: 2px 2px 32px green;}
+}
